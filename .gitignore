@@ -1,0 +1,22 @@
+# Ignore compiled binaries
+*.exe
+*.dll
+
+# Ignore dependencies
+/node_modules
+/bower_components
+/dist
+
+# Ignore logs and databases
+*.log
+*.sqlite
+
+# Ignore IDE/Editor files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Ignore system files
+.DS_Store
+Thumbs.db
