@@ -114,7 +114,7 @@ const Widget = (props: AllWidgetProps<any>) => {
       </>
     );
   }
-
+//sections starts 
   if (!isDsConfigured()) {
     return <h3>This widget demonstrates how to use a feature layer as a data source. Configure the data source.</h3>;
   }
